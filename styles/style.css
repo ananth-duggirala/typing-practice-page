@@ -1,0 +1,13 @@
+html {
+    font-size: 10px;
+}
+
+body,html {
+    font-family: sans-serif;
+    background-color: rgb(224, 216, 216);
+}
+
+button {
+    border-radius: 16px;
+    border-color: navajowhite;
+}

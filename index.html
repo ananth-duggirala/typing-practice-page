@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+
+  <body>
+    <main class="main">
+      <div id = "prompt-type-selector">
+        <button id="test-mode", onclick=prompt()>Test Mode</button>
+      </div>
+
+      <div id="prompt">
+        <p id="prompt-text">Hello</p>
+      </div>
+      
+      <div id="response">
+        <textarea id="response-text", oninput=countFunction()></textarea>
+      </div>
+
+      <p id="test">Start typing to begin.</p>
+    </main>
+    <script src="scripts/script.js"></script>
+  </body>
