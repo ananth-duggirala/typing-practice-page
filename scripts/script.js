@@ -22,13 +22,15 @@ var s = 0;
 var first_time = true;
 var start_time = 0;
 var current_time = 0;
+var prompt = "";
 function countFunction(){
     if(first_time){
-        var prompt = getPrompt();        
+        prompt = getPrompt();        
         start_time = performance.now();
         first_time = false;
     }
-    firstTime = false;
+    console.log("hi there")
+
     var x = document.getElementById("response-text").value;
     var response_length = x.length;
     var prompt_length = prompt.length;
