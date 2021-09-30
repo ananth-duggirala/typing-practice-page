@@ -11,3 +11,15 @@ button {
     border-radius: 16px;
     border-color: navajowhite;
 }
+
+.color-0 {
+    color: black;
+}
+
+.color-1 {
+    color: green;
+}
+
+.color-2 {
+    color: red;
+}

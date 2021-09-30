@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Calculator</title>
+    <title>Typing Practice App</title>
     <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body>
     <main class="main">
       <div id = "prompt-type-selector">
-        <button id="test-mode", onclick=prompt()>Test Mode</button>
+        <button id="test-mode", onclick=prompt_fn()>Test Mode</button>
       </div>
 
       <div id="prompt">
@@ -17,7 +17,7 @@
       </div>
       
       <div id="response">
-        <textarea id="response-text", oninput=countFunction()></textarea>
+        <textarea id="response-text", onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off oninput=countFunction()></textarea><br>
       </div>
 
       <p id="test">Start typing to begin.</p>
